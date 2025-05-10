@@ -1,0 +1,273 @@
+body.homepage{
+    background-color: #D2D0A0;
+    font-family: Arial, sans-serif;
+} body.homepage header{
+    background-color: #9EBC8A;          
+    color: #171717;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px ;
+    margin: 20px;
+}
+body.homepage h1{
+    color: #171717;
+    text-align: center;
+}
+body.homepage .subtitle{
+    color: #171717;
+    text-align: center;
+    font-size: 1.em;
+}
+body.homepage .navbar ul {
+    list-style-type: none;
+    padding: 5px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+body.homepage .navbar ul li a {
+    display: inline;
+    text-decoration: none;
+    
+}
+body.homepage .navbar a:hover {
+    text-decoration: underline;
+}
+body.homepage .proverb{
+    background-color: #E7F2E4;
+    color: #171717;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+}   
+body.homepage .search-bar{
+    text-align: center;
+    font-size: 1.2em;
+}
+body.homepage .search-bar input[type="text"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+
+}
+body.homepage .search-bar button[type="submit"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #537D5D;
+    color: white;
+    
+}
+body.homepage .search-bar button[type="submit"]:hover{
+    background-color: #4A6E4D;
+}
+body.homepage .proverb1{
+    background-color: #DDEB9D;
+    color: #171717;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+}
+body.homepage .proverb2{
+    background-color: #DDEB9D;
+    color: #171717;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+}
+body.homepage .proverb1:hover{ 
+    background-color: #9EBC8A;
+}
+body.homepage .proverb2:hover{ 
+    background-color: #9EBC8A;
+}
+body.gallery{
+    background-color: #DFD0B8;
+    font-family: Arial, sans-serif;
+}
+body.gallery header{
+    background-color: #547792;          
+    color: #171717;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px ;
+    margin: 20px;
+
+    
+}
+body.gallery .navbar ul {
+    list-style-type: none;
+    padding: 5px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: small;
+}
+body.gallery .navbar ul li a:hover {
+    text-decoration: underline;
+    display: flex;
+     
+}
+body.gallery .card1{
+
+    background-color: #E7F2E4;
+    color: #171717;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+}
+body.gallery .card2{
+    background-color: #E7F2E4;
+    color: #171717;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+}
+body.gallery .card3{
+    background-color: #E7F2E4;
+    color: #171717;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+}
+body.gallery .card4{
+    background-color: #E7F2E4;
+    color: #171717;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+}
+body.detail{
+    background-color: #FAD59A;
+    font-family: Arial, sans-serif;
+}
+body.detail header{
+    background-color: #FCEFCB;          
+    color: #171717;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px ;
+    margin: 20px;
+}
+body.detail .navbar ul {
+    list-style-type: none;
+    padding: 5px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+body.detail .navbar ul li a:hover {
+    text-decoration: underline;
+    display: flex;
+     
+}
+body.detail .proverb-detail{
+    background-color: #E7F2E4;
+    color: #171717;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    gap: 1.5em;
+}   
+body.detail .proverb-detail:hover{ 
+    background-color: #9EBC8A;
+}
+body.detail .back{
+    background-color: #828f7f;
+    color: #171717;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 250px;
+    gap: 1.5em;
+    display: inline-block;
+}
+body.wall{
+    background-color: #A2B9A7;
+    font-family: Arial, sans-serif;
+}
+body.wall header{
+    background-color: #657C6A;          
+    color: #171717;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px ;
+    margin: 20px;
+}
+body.wall .navbar ul {
+    list-style-type: none;
+    padding: 5px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: small;
+}
+body.wall .navbar ul li a:hover {
+    text-decoration: underline;
+    display: flex;
+     
+}
+body.wall .user-form{
+    background-color: #E7F2E4;
+    color: #171717;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+}
+body.wall .user-form label{
+    font-size: 1.2em;
+    display: block;
+}
+body.wall .user-form input[type="text"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+}
+body.wall .user-form input[type="submit"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #537D5D;
+    color: white;
+}
+body.wall .user-form button[type="submit"]{
+    background-color: #4A6E4D;
+    border-radius: 5px;
+    display: inline-block;
+}
+body.wall .user-form button[type="submit"]:hover{
+    background-color: #4A6E4D;
+}
+
